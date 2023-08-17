@@ -1,0 +1,428 @@
+.section-p {
+  position: relative;
+  width: 100vw;
+  height: 35vw;
+}
+@import "primeicons/primeicons.css";
+.object-in-3d {
+  width: 100%;
+  margin: auto;
+  height: 250rem;
+  // background-color: #41ebf4;
+  transform: translate(0, 12rem);
+  // background-image: url(./parallax-image.jpg);
+  // background-image: url(./parallax-image.jpg);
+  background-size: contain;
+  background-position: center;
+}
+
+.float-center {
+  position: absolute;
+  top: 50%;
+}
+
+#red {
+  background-color: #f44141;
+}
+#yellow {
+  overflow: hidden;
+  height: fit-content;
+}
+#green {
+  border: 3px solid teal;
+  height: 10rem;
+}
+
+#floater {
+}
+
+.margin-3d {
+}
+
+// the rest of it
+
+section {
+  margin-top: 5rem;
+  height: 100vh;
+  overflow-x: hidden;
+  perspective: 1px;
+}
+.image-front {
+  height: 38rem;
+  border: 2px solid black;
+  // overflow: hidden;
+}
+.image-front > img {
+  width: 100%;
+  height: 100%;
+}
+.image-front > h2 {
+  transform: translate(97%, -410%);
+  font-family: sans-serif;
+  font-size: 4rem;
+  color: white;
+  border: 9px solid white;
+  width: fit-content;
+  padding: 0 8px 0 8px;
+  background-color: rgba(0, 0, 0, 0.514);
+}
+
+.first {
+  display: flex;
+  margin: auto;
+  justify-content: space-evenly;
+  height: 14rem;
+}
+.logo {
+  width: 30%;
+  overflow: hidden;
+  height: 11rem;
+  margin: auto;
+}
+.logo > img {
+  height: 9rem;
+  margin-left: 10rem;
+  // border: 2px solid black;
+}
+.secret {
+  width: 30%;
+  text-align: center;
+  margin: auto;
+  height: 11rem;
+}
+.secret > h4 {
+  margin-left: 2rem;
+  width: 10rem;
+  border-left: 5px solid black;
+}
+.secret > H2{
+  background-color: #f5eded9a;
+  padding: 10px;
+  // border-radius: 23px;
+  // padding: 0 5px 0 8px;
+  // text-align: center;
+  // color: black;
+  // background-color: rgba(65, 105, 225, 0.527);
+}
+.know {
+  width: 30%;
+  text-align: center;
+  margin: auto;
+  height: 11rem;
+}
+.know > h5 {
+  width: 95%;
+  margin: auto;
+}
+// second column
+.second {
+  border-bottom: 1px solid rgba(32, 31, 31, 0.199);
+  display: flex;
+  justify-content: space-around;
+  // overflow: hidden;
+  margin: auto;
+  height: 11rem;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(./crane-red-sky_crop.jpg);
+  background-size: cover;
+}
+.second > img {
+  width: 100%;
+}
+.complete {
+  width: max-content;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 27px;
+}
+.complete > h3 {
+  // border: 2px solid black;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  color: white;
+  width: fit-content;
+  padding-left: 13px;
+  padding-right: 13px;
+  border-radius: 21px;
+  margin-top: 5px;
+}
+.complete > h4 {
+  margin-top: 8px;
+  text-align: center;
+  color: gold;
+}
+.complete > img {
+  width: 4rem;
+  margin-left: 6rem;
+  filter: invert(100%);
+}
+.experience {
+  width: max-content;
+  overflow: hidden;
+  margin: auto;
+}
+.experience > img {
+  width: 4rem;
+  filter: invert(100%);
+  margin-left: 6.2rem;
+}
+
+.experience > h3 {
+  // border: 2px solid white;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  color: white;
+  width: fit-content;
+  padding-left: 13px;
+  padding-right: 13px;
+  border-radius: 21px;
+  margin-top: 5px;
+}
+.experience > h4 {
+  margin-top: 8px;
+  text-align: center;
+  color: gold;
+}
+.clients {
+  width: fit-content;
+  overflow: hidden;
+  margin: auto;
+}
+.clients > img {
+  width: 4rem;
+  margin-left: 4rem;
+  filter: invert(100%);
+}
+.clients > h4 {
+  margin-top: 8px;
+  text-align: center;
+  color: gold;
+}
+.clients > h3 {
+  // border: 2px solid white;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  color: white;
+  width: fit-content;
+  padding-left: 13px;
+  padding-right: 13px;
+  border-radius: 21px;
+  margin-top: 5px;
+}
+// third
+.third {
+  display: flex;
+  height: 17rem;
+  height: fit-content;
+}
+.head {
+  width: 94%;
+  padding-left: 10px;
+  margin-left: 13px;
+  color: rgba(0, 0, 0, 0.432);
+}
+.index {
+  width: 32%;
+  height: 7rem;
+  padding: 23px;
+}
+.index > img {
+  height: 5rem;
+  margin-left: 6rem;
+  margin-top: -8px;
+}
+.body {
+  text-align: center;
+  width: 67%;
+  align-self: center;
+  color: darkorange;
+  font-weight: 600;
+  transform: translateZ(0);
+}
+.para {
+  width: 50%;
+  justify-content: end;
+}
+.content {
+  width: 50%;
+  border: 1px solid black;
+  transform: translateZ(0);
+  background-color: white;
+}
+.content > h4 {
+  margin-left: 1rem;
+  border: 1px solid black;
+  width: fit-content;
+  padding-right: 6px;
+  padding-left: 6px;
+  color: black;
+  margin-top: 10px;
+}
+.object {
+  display: flex;
+  width: 42rem;
+  margin: auto;
+  height: 7rem;
+}
+
+.parallax_layer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.body-1 {
+  transform: translateZ(-1);
+}
+
+.body-2 {
+  transform: translateZ(-2);
+}
+// boxes
+.boxes {
+  display: flex;
+  width: 72%;
+  justify-content: space-around;
+  margin: auto;
+}
+.box {
+  width: 21rem;
+  height: 21rem;
+  overflow: hidden;
+  // border: 2px solid red ;
+}
+
+.box > img {
+  height: 18rem;
+  // border: 2px solid royalblue;
+  border-radius: 10px;
+  width: 20.7rem;
+}
+.box > h5 {
+  color: black;
+  // border: 1px solid black;
+  width: max-content;
+  padding: 0 7px 0 11px;
+  margin: auto;
+  margin-top: 10px;
+  text-align: center;
+}
+.box:hover h5 {
+  // background-color: rgba(0, 0, 0, 0.966);
+  // color: white;
+  border: 1px solid rgba(0, 0, 0, 0.479);
+  color: rgba(0, 0, 0, 0.925);
+  border-radius: 6px;
+}
+.right-content {
+  margin: auto;
+  transform: translate(30rem, 0);
+}
+
+.valued-clients {
+  width: 40rem;
+  height: fit-content;
+  // margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  // border: 2px solid black;
+  margin-left: 13.2rem;
+}
+.valued-clients-slide-show {
+  height: 15rem;
+  width: 15rem;
+  display: flex;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+.valued-clients-slide-show img {
+  width: 100%;
+  height: 100%;
+}
+
+.tri {
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  transform: translate(0, -2.6rem);
+  border-bottom: 2px solid white;
+}
+
+.t {
+  height: 0;
+  width: 0;
+  border-left: 2.5rem solid transparent;
+  border-bottom: 2.5rem solid white;
+  border-right: 2.5rem solid transparent;
+}
+
+.highlight-about {
+  height: 39px;
+  width: 180px;
+  background-color: royalblue;
+  opacity: 0.7;
+  transform: translate(1.1rem, 4.57rem);
+}
+
+// parallax website replacement
+
+.dribble {
+  width: 80%;
+  height: 17rem;
+  // border: 2px solid rgba(105, 90, 205, 0.795);
+  margin: auto;
+  border-radius: 13px;
+  display: flex;
+  margin-bottom: 9rem;
+  text-align: center;
+// background-color: rgba(179, 179, 235, 0.342);
+  background-image: 
+  // radial-gradient(#212121 20%, transparent 20%);
+    radial-gradient(#d4ccccdc 20%, transparent 20%);
+  // background-color: #e53935;
+  background-position: 0 0, 50px 50px;
+  background-size: 13px 13px;
+}
+.drib-1 {
+  border: 2px solid rgba(0, 0, 0, 0.329);
+  height: 18rem;
+  width: 16rem;
+  margin: auto;
+  background-color: white;
+  border-radius: 7px;
+  transform: translate(0, 7rem);
+}
+.drib-1 > div {
+  border-radius: 50%;
+  // background-color: rgba(151, 151, 240, 0.651);
+  background-color: #f8c806;
+  height: 6rem;
+  margin: auto;
+  width: 6rem;
+  margin-top: 0.8rem;
+  margin-bottom: 0.7rem;
+}
+.drib-1 > div >img{
+  width: 60%;
+  height: 60%;
+  margin-top: 14px;
+}
+.drib-1 > p {
+  // background-color: #f4414159;
+  padding: 5px;
+}
+.new-one {
+  width: max-content;
+  transform: translate(130%, 150%);
+  height: max-content;
+  // border: 2px solid sienna;
+}
+.new-one > h3 {
+  color: black;
+}
