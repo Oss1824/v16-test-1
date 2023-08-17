@@ -2,7 +2,7 @@
   "name": "oss",
   "version": "0.0.0",
   "engines": {
-    "node": "14.19.1"
+    "node": "18.0.0"
   },
   "scripts": {
     "ng": "ng",
